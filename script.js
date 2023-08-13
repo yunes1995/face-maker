@@ -7,8 +7,14 @@
 //   "#ffa711",
 // ];
 
-// color of characters
+// color of characters : 
+let charactersColor = document.getElementById("color-btn");
+charactersColor.addEventListener("click",changecolor);
 
+function changecolor(){
+   let colorName = prompt("What color do you want to change?");
+   document.documentElement.style.setProperty('--color-character', colorName);
+}
 
 
 // Chane Face :
