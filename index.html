@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Character Maker</title>
-    <!-- Google Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="buttons">
-        <button id="face-btn" class="btn-backgrounds">Face</button>
-        <button id="color-btn" class="btn-backgrounds">Color</button>
-        <button id="horns-btn" class="btn-backgrounds">Horns</button>
-        <button id="tail-btn" class="btn-backgrounds">Tail</button>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Character Maker</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="buttons">
+      <button id="face-btn" class="btn-backgrounds">Face</button>
+      <button id="color-btn" class="btn-backgrounds">Color</button>
+      <button id="horns-btn" class="btn-backgrounds">Horns</button>
+      <button id="tail-btn" class="btn-backgrounds">Tail</button>
+    </div>
+    <div class="container">
+      <div class="monster">
+        <div class="monster-horns"></div>
+        <div class="monster-tail"></div>
+        <div class="monster-body">
+          <img src="./img/face-0.png" id="face" />
+        </div>
       </div>
-      <div class="container">
-        <div class="monster">
-          <div class="monster-horns"></div>
-          <div class="monster-tail"></div>
-          <div class="monster-body">
-            <img src="./img/face-0.png" id="face" />
-          </div>
-        </div>
-        <div class="face-name">
-          <p id="faceText">Confused</p>
-        </div>
+      <div class="face-name">
+        <p id="faceText">Confused</p>
       </div>
     </div>
-
-    <!--chose them-->
-    <div class="choseThemCustom hide" id="customThem">
-      <span>Custom Them</span>
-      <input type="color" class="color1">
   </div>
-    <!-- Script -->
-    <script src="script.js"></script>
-  </body>
+
+  <!--chose them-->
+  <div class="choseThemCustom hide" id="customThem">
+    <span>Custom Them</span>
+    <input type="color" class="color1">
+  </div>
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
 </html>

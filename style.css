@@ -135,6 +135,10 @@ img {
   left: -1.5px;
 }
 
+.btn-backgrounds {
+  cursor: pointer;
+}
+
 /* chose them */
 
 .choseThemCustom {
@@ -157,7 +161,7 @@ img {
   cursor: pointer;
 }
 
-.color1{
+.color1 {
   width: 100%;
   margin-top: 3px;
 }
