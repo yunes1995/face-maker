@@ -14,21 +14,30 @@
   <body>
     <div class="wrapper">
       <div class="buttons">
-        <button id="face-btn">Face</button>
-        <button id="color-btn">Color</button>
-        <button id="horns-btn">Horns</button>
-        <button id="tail-btn">Tail</button>
+        <button id="face-btn" class="btn-backgrounds">Face</button>
+        <button id="color-btn" class="btn-backgrounds">Color</button>
+        <button id="horns-btn" class="btn-backgrounds">Horns</button>
+        <button id="tail-btn" class="btn-backgrounds">Tail</button>
       </div>
       <div class="container">
         <div class="monster">
           <div class="monster-horns"></div>
           <div class="monster-tail"></div>
           <div class="monster-body">
-            <img src="face-0.png" id="face" />
+            <img src="./img/face-0.png" id="face" />
           </div>
+        </div>
+        <div class="face-name">
+          <p id="faceText">Confused</p>
         </div>
       </div>
     </div>
+
+    <!--chose them-->
+    <div class="choseThemCustom hide" id="customThem">
+      <span>Custom Them</span>
+      <input type="color" class="color1">
+  </div>
     <!-- Script -->
     <script src="script.js"></script>
   </body>
